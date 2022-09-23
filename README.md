@@ -1,6 +1,6 @@
 # Unity
 
-My Projects created using Unity and C#
+My Projects created using Unity with C# Scripting
 
 ## Projects
 
