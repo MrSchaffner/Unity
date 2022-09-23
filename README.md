@@ -4,7 +4,7 @@ My Projects created using Unity and C#
 
 ## Projects
 
-### [Ball Maze](https://github.com/MrSchaffner/Unity)
+### [Ball Maze](https://github.com/MrSchaffner/Unity/tree/master/Ball-Motion)
 
 Use the arrow keys to guide the ball through the maze. Usage of physics engine and level design. 
 
@@ -13,7 +13,7 @@ Use the arrow keys to guide the ball through the maze. Usage of physics engine a
   alt="Squish Game Image"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
-### [SquishGame](https://github.com/MrSchaffner/Unity)
+### [SquishGame](https://github.com/MrSchaffner/Unity/tree/master/SquishGame)
 
 Made in a few hours as a class assignment. Use the ball to defeat the cube enemies. Uses finite state machine to maintain state. Demonstrates use of physics engine and all the basics of a game including changing scene based on conditions. 
 
@@ -22,7 +22,7 @@ Made in a few hours as a class assignment. Use the ball to defeat the cube enemi
   alt="Squish Game Image"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
-### [Solar System](https://github.com/MrSchaffner/Unity)
+### [Solar System](https://github.com/MrSchaffner/Unity/tree/master/Mini_solar_sys)
 
 Realistic model of Solar System. Simple demonstration of Unity rotation.
 
