@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private Rigidbody rb;
-    private Transform transform;
+    private new Transform transform; //hides original transform data
     public PhysicMaterial newMaterial;
 
     public int health;

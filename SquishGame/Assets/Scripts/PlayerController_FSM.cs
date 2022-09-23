@@ -2,30 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//BAD ONE
 public class PlayerController_FSM : MonoBehaviour
 {
     #region Player Variables
 
-    public SphereCollider collider;
-
+    //public SphereCollider sCollider;
+    public float jumpForce;
     private BaseState currentState;
     public BaseState CurrentState
     {
         get { return currentState; }
     }
 
-    public float jumpForce;
-    public Transform head;
-    public Transform weapon01;
-    public Transform weapon02;
-    
-    private Rigidbody rbody;
-
-    public Rigidbody rb
-    {
-        get { return rbody; }
-    }
-
+    public Rigidbody rb;
+ 
     #endregion
 
     #region Player States
@@ -36,21 +27,23 @@ public class PlayerController_FSM : MonoBehaviour
 
     public void Start()
     {
+        Debug.Log("in playerCOntroller.Start();");
         TransitionToState(DuckingState);
-        Debug.Log("in start()");
-        collider = this.GetComponent<SphereCollider>(); //gets component attached to OBJECT this script is attached to.
-       jumpForce = 300;
-        
+        //sCollider = this.GetComponent<SphereCollider>(); //gets component attached to OBJECT this script is attached to.
+        //rb = GetComponent<Rigidbody>();
+        jumpForce = 300;
     }
 
     private void Awake()
     {
-        rbody = GetComponent<Rigidbody>();
+        Debug.Log("awake!");
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+       // Debug.Log("in playerCOntroller.Update();");
         currentState.Update(this); //passes to state
     }
 
