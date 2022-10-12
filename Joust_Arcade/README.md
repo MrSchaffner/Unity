@@ -8,12 +8,12 @@ The project was to build an anthology of classic games, using Unity and C# to ma
 
 As in many upright arcade games, the characters in Joust can go off-screen and appear on the other side. 
 
-![Gif of Moving off-screen in Joust Game](display_images/thru_walls.gif)
+![Gif of Moving off-screen in Joust Game](https://github.com/MrSchaffner/Unity/tree/master/Images_Display/joust_images/thru_walls.gif)
 
 When the player can jump through and reappear shortly after, the implementation is simple, as in PAC-Man. But in Joust, a player can be half on one side and half on the other, with enemy collisions possible on either side of the screen. To handle this, I created a clone that moves in tandem with the original. 
 I then wrote code to jump the player back exactly one screen backward, every time it collided with an offscreen trigger (shown in blue).
 
-![Gif of How Moving off-screen was done](display_images/thru_wall_reveal.gif)
+![Gif of How Moving off-screen was done](https://github.com/MrSchaffner/Unity/tree/master/Images_Display/joust_images/thru_wall_reveal.gif)
 <code>Teleporter Class:</code>
 ```csharp
 public class WallDetection : MonoBehaviour
@@ -331,4 +331,4 @@ In Joust, just like the Medieval contest on Horseback, you play as a knight carr
 
 <code>The playable game at the end of the Sprint:</code>
 
-![Gif of Joust Game in Action](display_images/full_game.gif)
+![Gif of Joust Game in Action](https://github.com/MrSchaffner/Unity/tree/master/Images_Display/joust_images/full_game.gif)

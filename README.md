@@ -4,6 +4,12 @@ My Projects created using Unity with C# Scripting
 
 ## Projects
 
+### [Joust Arcade](https://github.com/MrSchaffner/Unity/tree/master/Joust_Arcade)
+
+Clone of popular 2D arcade game Joust. 
+
+![Gif of Joust Game](https://github.com/MrSchaffner/Unity/tree/master/Images_Display/joust_images/thru_walls.gif)
+
 ### [Ball Maze](https://github.com/MrSchaffner/Unity/tree/master/Ball-Motion)
 
 Use the arrow keys to guide the ball through the maze. Usage of physics engine and level design. 
