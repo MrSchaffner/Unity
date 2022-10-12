@@ -8,7 +8,7 @@ My Projects created using Unity with C# Scripting
 
 Clone of popular 2D arcade game Joust. 
 
-![Gif of Joust Game](https://github.com/MrSchaffner/Unity/tree/master/Images_Display/joust_images/thru_walls.gif)
+![Gif of Joust Game](https://github.com/MrSchaffner/Unity/blob/master/Images_Display/joust_images/thru_walls.gif)
 
 ### [Ball Maze](https://github.com/MrSchaffner/Unity/tree/master/Ball-Motion)
 
