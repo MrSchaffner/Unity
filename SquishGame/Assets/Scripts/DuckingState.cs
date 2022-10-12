@@ -55,7 +55,7 @@ public class DuckingState : BaseState
         player.rb.AddForce(movement * speed);
         player.rb.velocity *= frictionFactor;
         Vector3 vel = player.rb.velocity;
-        if (vel.magnitude < .4f) vel = new Vector3(0f, 0f, 0f);
+        if (vel.magnitude < .4f) vel = new Vector3(0f, 0f, 0f); //stop if too slow
 
     }
 
