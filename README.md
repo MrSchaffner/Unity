@@ -16,7 +16,7 @@ Use the arrow keys to guide the ball through the maze. Usage of physics engine a
 
 <img
   src="https://github.com/MrSchaffner/Unity/blob/master/Images_Display/Ball_Maze_01.png"
-  alt="Squish Game Image"
+  alt="Ball Maze Image"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ### [SquishGame](https://github.com/MrSchaffner/Unity/tree/master/SquishGame)
